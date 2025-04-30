@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jump Boost</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Jump Boost</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#workouts">Workouts</a></li>
+        <li><a href="#tracker">Tracker</a></li>
+        <li><a href="#tips">Tips & Science</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Unlock Your Vertical Potential</h2>
+    <p>Free training plans, progress tracking, and tips to help you jump higher.</p>
+    <a href="#workouts" class="btn">Start Training</a>
+  </section>
+
+  <section id="workouts">
+    <h2>Workout Plan</h2>
+    <ul>
+      <li><strong>Box Jumps</strong> - 4x5 reps</li>
+      <li><strong>Depth Jumps</strong> - 3x3 reps</li>
+      <li><strong>Squat Jumps</strong> - 3x10 reps</li>
+      <li><strong>Calf Raises</strong> - 3x20 reps</li>
+    </ul>
+  </section>
+
+  <section id="tracker">
+    <h2>Progress Tracker</h2>
+    <table>
+      <tr><th>Date</th><th>Height (inches)</th><th>Notes</th></tr>
+      <tr><td>04/01</td><td>22</td><td>Baseline</td></tr>
+      <tr><td>04/15</td><td>23.5</td><td>Added box jumps</td></tr>
+    </table>
+  </section>
+
+  <section id="tips">
+    <h2>Tips & Science</h2>
+    <ul>
+      <li>Use both strength and plyometric exercises.</li>
+      <li>Track weekly progress to stay motivated.</li>
+      <li>Recover properly to avoid injury.</li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h2>About Jump Boost</h2>
+    <p>Created by a student athlete to help others increase their vertical jump and athletic performance. Built as part of a personal project with open-source code and free tools.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jump Boost | Created for Personal Project</p>
+  </footer>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0066cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</body>
+</html>
